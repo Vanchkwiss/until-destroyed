@@ -8,7 +8,7 @@ import { untilDestroyed } from 'projects/until-destroyed/src/public-api';
   templateUrl: './until-destroyed-content-test.component.html',
   styleUrls: ['./until-destroyed-content-test.component.scss']
 })
-export class AutoUnsubscribeContentTestComponent implements OnInit, OnDestroy {
+export class UntilDestroyedContentTestComponent implements OnInit, OnDestroy {
 
   // id of the component
   @Input() id: number;

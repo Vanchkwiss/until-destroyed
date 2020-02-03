@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './until-destroyed-test.component.html',
   styleUrls: ['./until-destroyed-test.component.scss']
 })
-export class AutoUnsubscribeTestComponent implements OnInit {
+export class UntilDestroyedTestComponent implements OnInit {
 
 // show the component content 1 (destroyed if not shown)
 public showContent1: boolean = true;

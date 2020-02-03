@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AutoUnsubscribeTestComponent } from './until-destroyed-test.component';
+import { UntilDestroyedTestComponent } from './until-destroyed-test.component';
 
-describe('AutoUnsubscribeTestComponent', () => {
-  let component: AutoUnsubscribeTestComponent;
-  let fixture: ComponentFixture<AutoUnsubscribeTestComponent>;
+describe('UntilDestroyedTestComponent', () => {
+  let component: UntilDestroyedTestComponent;
+  let fixture: ComponentFixture<UntilDestroyedTestComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AutoUnsubscribeTestComponent ]
+      declarations: [ UntilDestroyedTestComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AutoUnsubscribeTestComponent);
+    fixture = TestBed.createComponent(UntilDestroyedTestComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
