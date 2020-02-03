@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "until-destroyed": [
+        "dist/until-destroyed"
+      ],
+      "until-destroyed/*": [
+        "dist/until-destroyed/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
